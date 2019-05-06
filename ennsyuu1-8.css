@@ -13,7 +13,7 @@
 .box1 {
   width: 990px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 0 30px 0;
 }
 
 .box2 {
@@ -52,4 +52,19 @@
   color: white;
   text-align: center;
   line-height: 30px;
+}
+
+@media screen and (max-width:768px) {
+  
+.box1 {
+  width: 55%;
+  padding: 40px;
+}
+.box2 {
+  width: 90%;
+  margin:10px 0 10px 0;
+}
+.box3 {
+  width: 99%;
+  height: 60%;
 }
