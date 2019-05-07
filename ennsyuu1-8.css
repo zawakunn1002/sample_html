@@ -11,9 +11,9 @@
 }
 
 .box1 {
-  width: 990px;
+  width: 960px;
   margin: 0 auto;
-  padding: 50px 0 30px 0;
+  padding: 50px 0;
 }
 
 .box2 {
@@ -21,8 +21,10 @@
   float: left;
   width: 300px;
   border: solid 1px #f2f2f2;
-  margin: 0 15px;
+}
 
+.box2:nth-child(2) {
+  margin:0 30px;
 }
 
 .box3 {
@@ -54,17 +56,28 @@
   line-height: 30px;
 }
 
-@media screen and (max-width:768px) {
-  
+@media screen and (max-width:768px){
+
+
 .box1 {
-  width: 55%;
-  padding: 40px;
-}
-.box2 {
   width: 90%;
-  margin:10px 0 10px 0;
+  padding: 50px 0;
+
 }
+
+.box2 {
+  float: none;
+  width: 100%;
+}
+
+.box2:nth-child(2) {
+  margin:20px 0;
+}
+
 .box3 {
-  width: 99%;
-  height: 60%;
+  width: 100%;
+}
+.box4-date {
+  text-align: start;
+}
 }
